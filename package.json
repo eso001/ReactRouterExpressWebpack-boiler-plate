@@ -1,0 +1,32 @@
+{
+  "name": "webpack-express-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "express": "^4.13.4",
+    "http-proxy": "^1.13.3",
+    "path": "^0.12.7",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "redux": "^3.5.2",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "webpack-dev-server": "^1.14.1",
+    "babel-preset-es2015-webpack": "^6.4.1",
+    "babel-preset-react": "^6.5.0"
+  }
+}
